@@ -1,0 +1,11 @@
+#fact-widget {
+  background: #f0f8ff;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  max-width: 400px;
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  color: #333;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
