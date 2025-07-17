@@ -1,3 +1,9 @@
+
+---
+
+## ✅ ✅ ✅ **2️⃣ Improved `widget.js`**
+
+```javascript
 async function loadFact() {
   const response = await fetch("https://ibrahim321123-fact-api.hf.space/api/random-fact");
   const data = await response.json();
@@ -7,4 +13,8 @@ async function loadFact() {
   }
 }
 
+// Load once when page loads
 loadFact();
+
+// Optional: Auto-refresh every 60 seconds
+// setInterval(loadFact, 60000);
